@@ -1,0 +1,29 @@
+.wrapper{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ul li{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+ul .header{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-style: oblique;
+}
+.delete{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background: #333;
+}
